@@ -1,0 +1,48 @@
+STUDENT MARKS ANALYSIS USING PYTHON
+===================================
+
+1. INTRODUCTION
+This project analyzes student marks using Python libraries NumPy, Pandas, and Matplotlib.
+
+2. OBJECTIVES
+- Calculate total marks, percentage, and average.
+- Assign grades and determine pass/fail status.
+- Rank students by percentage.
+- Compare subject-wise performance.
+- Visualize results using charts.
+
+3. TOOLS AND LIBRARIES
+- Python: programming language
+- NumPy: numerical calculations and summary statistics
+- Pandas: loading CSV data and data analysis
+- Matplotlib: charts and data visualization
+
+4. DATASET
+The sample dataset contains 10 students and marks in five subjects: Maths, Science, English, History, and Computer. Each subject is out of 100.
+
+5. METHODOLOGY
+The program reads student_marks.csv, calculates totals and percentages, assigns grades, checks whether each student has passed every subject, ranks students, prints summary statistics, and generates charts.
+
+6. PASS AND GRADE RULES
+A student passes if they score at least 35 in every subject.
+A+: 90% and above
+A: 80% to below 90%
+B: 70% to below 80%
+C: 60% to below 70%
+D: 35% to below 60%
+F: below 35%
+These are sample rules and may be changed to suit institutional guidelines.
+
+7. EXPECTED OUTPUT
+- Student-wise analysis table
+- Subject-wise average, maximum, and minimum
+- Topper, pass count, and fail count
+- Student percentage bar chart
+- Subject average bar chart
+- Pass/fail pie chart
+- Exported student_analysis_report.csv
+
+8. CONCLUSION
+This project demonstrates how NumPy, Pandas, and Matplotlib work together to analyze tabular data and communicate results visually. It can be extended with more students, additional subjects, or interactive filters.
+
+Note: Dataset values are sample data created for educational practice.
